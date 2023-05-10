@@ -15,21 +15,14 @@ export const HeaderData = {
       link: 'index.html',
     },
     {
-      title: 'Servicios',
-      link: 'servicios.html',
-    },
-    {
-      title: 'Experiencia',
+      title: 'Habilidades',
       link: 'experiencia.html',
     },
     {
       title: 'Proyectos',
       link: 'proyectos.html',
     },
-    {
-      title: 'Equipo',
-      link: 'equipo.html',
-    },
+
   ],
   social: [
     {
@@ -47,20 +40,28 @@ export const HeaderData = {
       link: 'instagram.html',
       icon: instagram,
     },
+    {
+      title: 'Instagram',
+      link: 'instagram.html',
+      icon: instagram,
+    },
+
   ],
 };
 
 export const HeroData = {
-  title: 'Las mejores experiencias en software',
+  title: 'Hola!',
   subTitle:
-    'Nos aseguramos que cada desarrollo sea enfocado en las necesidades de los usuarios para brindar soluciones de alta calidad.',
+    'Soy William Esteban',  
+  masTexto:'{Full Stack Developer}', 
+  descripcion:'Enim pariatur dolore velit in mollit quis ullamco. Veniam do labore ea dolor id duis sunt et ex commodo nostrud ullamco pariatur laboris. Nisi ad ex excepteur sint aute cillum. Deserunt proident sint eiusmod commodo pariatur Lorem incididunt sint pariatur enim. Mollit eu voluptate officia excepteur laboris ea veniam.', 
   btnTextDownloadCv: 'Descargar CV',
   btnTextContact: 'Contactarnos',
 };
 
 export const ServiceData = {
   header: {
-    title: 'Servicios',
+    title: 'Tecnologias',
     subTitle:
       'Cada uno de nuestros servicios tiene como foco principal las necesidades de nuestros usuarios.',
   },

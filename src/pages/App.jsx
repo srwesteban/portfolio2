@@ -2,8 +2,9 @@ import React from 'react';
 import { Layout } from '../components/Layout';
 import Header from '../sections/Header';
 import Hero from '../sections/Hero';
-import Services from '../sections/Services';
-// import reactLogo from './assets/react.svg';
+import Footer from '../sections/Footer';
+import Tecnologias from '../sections/Tecnologias';
+import Proyectos from '../sections/Proyectos';
 
 function App() {
   return (
@@ -11,8 +12,12 @@ function App() {
       <Header />
       <Hero />
       <Layout>
-        <Services></Services>
+        
       </Layout>
+      <Tecnologias></Tecnologias>
+      <Proyectos></Proyectos>
+
+      <Footer></Footer>
     </>
   );
 }
