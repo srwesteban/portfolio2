@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, LayoutHero } from '../components/Layout';
-import UiIcon from '../assets/images/yo.png';
+import me from '../assets/images/yo.png';
 import { HeroData } from '../data/data.js';
 
 
@@ -9,13 +9,14 @@ const Hero = () => {
   return (
     <section className='pt-[200px] pb-[100px] font-poppins bg-secundary-900'>
       <LayoutHero>
-        <section className='flex flex-col items-center lg:flex-row lg:justify-between lg:items-end'>
+        <section className='flex flex-col items-center lg:flex-row lg:justify-between lg:items-start'>
           <aside className='text-center lg:text-left'>
-            <section className='w-[740px] mx-15 p-8'>
-              <p className='font-extrabold text-4xl text-app-white'>
+
+            <section className=' px-4 lg:w-[710px] lg:pl-16'>
+              <p className='font-extrabold text-4xl text-app-white pt-9'>
                 {HeroData.title}
               </p>
-              <p className='mt-7 text-5xl text-app-white font-medium '>{HeroData.subTitle}
+              <p className='text-2xl sm:text-3xl md:text-5xl mt-7 text-secundary-50 font-medium '>{HeroData.subTitle}
               <span class="text-app-colortext">William Esteban</span>
               </p>
               
@@ -34,11 +35,13 @@ const Hero = () => {
               </button>
 
             </section>
+
           </aside>
+
           <img
-            src={UiIcon}
-            alt='ui'
-            className='w-[640px] shadow-2xl'
+            src={me}
+            alt='yo'
+            className='mx auto w-[500px] md:w-[640px] shadow-2xl order-first lg:order-last'
           />
 
         </section>
