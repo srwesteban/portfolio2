@@ -12,7 +12,7 @@ const Hero = () => {
         <section className='flex flex-col items-center lg:flex-row lg:justify-between lg:items-start'>
           <aside className='text-center lg:text-left'>
 
-            <section className=' px-4 lg:w-[710px] lg:pl-16'>
+            <section className='px-4 lg:w-[710px] lg:pl-16'>
               <p className='font-extrabold text-4xl text-app-white pt-9'>
                 {HeroData.title}
               </p>
@@ -41,7 +41,7 @@ const Hero = () => {
           <img
             src={me}
             alt='yo'
-            className='w-[400px] sm:w-[300px] md:w-[500px] lg:w-[640px] shadow-2xl order-first lg:order-last pl-10'
+            className='w-[300px] sm:w-[400px] md:w-[500px] lg:w-[640px] shadow-2xl order-first lg:order-last pl-10'
           />
 
         </section>

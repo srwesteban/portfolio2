@@ -9,6 +9,7 @@ export const LayoutHeader = ({ children }) => {
   );
 };
 
+
 export const LayoutHero = ({ children }) => {
   return <main className='mx-auto my-5'>{children}</main>;
 };

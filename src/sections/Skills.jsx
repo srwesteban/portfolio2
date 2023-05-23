@@ -4,12 +4,12 @@ import { SkillsData } from '../data/data';
 function Skills() {
 
   return (
-    <div className="w-full bg-secundary-900 h-[800px] pt-[100px]" id='skills'>
+    <div className="w-full bg-secundary-900 h-[800px] " id='skills'>
 
-      <div className="flex relative items-center justify-center bg-secundary-900 p-28">
-        <span className="absolute-cover text-7xl md:text-9xl lg:text-11xl font-black text-white">Skills</span>
-        <span className="absolute text-7xl md:text-9xl lg:text-11xl font-black">Skills</span>
-        <span className="absolute py-20 mt-20 text-2xl md:text-3xl lg:text-4xl font-bold text-center text-app-colortext">Habilidades</span>
+      <div className="flex relative items-center justify-center bg-secundary-900 pt-28">
+        <span className="absolute-cover text-7xl md:text-9xl lg:text-11xl font-black text-primary-500">Skills</span>
+        <span className="absolute text-7xl md:text-9xl lg:text-11xl font-black text-secundary-400" >Skills</span>
+        <span className="absolute py-10 mt-20 text-2xl md:text-3xl lg:text-4xl font-bold text-center text-app-colortext">Habilidades</span>
       </div>
 
       <div className="container mx-auto ">
