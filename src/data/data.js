@@ -14,6 +14,9 @@ import react from './../assets/images/react.svg'
 import java from './../assets/images/java.svg'
 import python from './../assets/images/python.svg'
 import vite from './../assets/images/vitejs.svg'
+import figma from './../assets/images/clon.png'
+import vw from './../assets/images/vw.png'
+import gato from './../assets/images/gato.png'
 
 
 export const HeaderData = {
@@ -37,22 +40,22 @@ export const HeaderData = {
   social: [
     {
       title: 'Twitter',
-      link: 'www.twitter.com',
+      url: 'https://twitter.com/westeban12',
       icon: twitter,
     },
     {
       title: 'GitHub',
-      link: 'github.html',
+      url: 'https://github.com/srwesteban',
       icon: github,
     },
     {
       title: 'Instagram',
-      link: 'instagram.html',
+      url: 'https://www.instagram.com/lavergaja/',
       icon: instagram,
     },
     {
-      title: 'Instagram',
-      link: 'instagram.html',
+      title: 'gitlab',
+      url: 'https://gitlab.com/Ing.W',
       icon: gitlab,
     },
 
@@ -65,8 +68,8 @@ export const HeroData = {
   title: 'Hola!',
   subTitle:
     'Soy ',  
-  masTexto:'Full Stack Developer', 
-  descripcion:'Enim pariatur dolore velit in mollit quis ullamco. Veniam do labore ea dolor id duis sunt et ex commodo nostrud ullamco pariatur laboris. Nisi ad ex excepteur sint aute cillum. Deserunt proident sint eiusmod commodo pariatur Lorem incididunt sint pariatur enim. Mollit eu voluptate officia excepteur laboris ea veniam.', 
+  ocupation:'Full Stack Developer', 
+  description:'Enim pariatur dolore velit in mollit quis ullamco. Veniam do labore ea dolor id duis sunt et ex commodo nostrud ullamco pariatur laboris. Nisi ad ex excepteur sint aute cillum. Deserunt proident sint eiusmod commodo pariatur Lorem incididunt sint pariatur enim. Mollit eu voluptate officia excepteur laboris ea veniam.', 
   btnTextDownloadCv: 'Descargar CV',
   btnTextContact: 'Contactarnos',
 };
@@ -114,14 +117,23 @@ export const SkillsData = {
       title: 'vite',
       icon: vite,
     },
-
-    
-    
   ],
-
-  
-
- 
- 
 };
-
+export const ProjectsData = {
+ 
+  images: [
+    {
+      url: 'https://clonar-figma.vercel.app/',
+      icon: figma,
+    },
+    {
+      url: 'https://memory-game-lac-gamma.vercel.app/',
+      icon: gato,
+    },
+    {
+      url: 'https://menu-react-vergaja.vercel.app/',
+      icon: vw,
+    },
+  
+  ],
+};

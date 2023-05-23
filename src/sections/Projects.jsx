@@ -1,6 +1,5 @@
 import React from 'react';
-import { SkillsData } from '../data/data';
-import { Layout } from '../components/Layout';
+import { ProjectsData,} from '../data/data';
 
 function Projects() {
 
@@ -14,20 +13,22 @@ function Projects() {
         <span className="absolute py-20 mt-20 text-2xl md:text-3xl lg:text-4xl font-bold text-center text-app-colortext">Proyectos</span>
       </div>
 
-      <div className="container mx-auto ">
-      <div className="grid grid-cols-5 ">
-        {SkillsData.images.map((images) => (
-          <div className='flex items-center justify-center' key = {images.title}>
-            <img
-            
-            src={images.icon}
-            alt={images.title}
-            className="w-40 h-40 p-2 rounded-2xl border-yellow-500 border-4 m-6 bg-white "
-            />
-          </div>
-        ))}
+      <div className="container mx-auto">
+        <div className="grid sm:grid-cols-3">
+          {ProjectsData.images.map((image) => (
+            <div className="flex items-center justify-center" key={image.title}>
+              <a href={image.url} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={image.icon}
+                  alt={image.title}
+                  className="w-80 h-60 sm:w-32 md:h-[400px] lg:h-[300px] lg:w-[400px] gap-6 rounded-2xl border-yellow-500 border-4 m-6 bg-white"
+                />
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+
     </div>
   );
 

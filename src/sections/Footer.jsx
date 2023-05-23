@@ -8,14 +8,14 @@ const Footer = () => {
 
 
     <div className="flex flex-col items-center justify-center bg-secundary-900" id="footer">
-     <div className="bg-secundary-900 p-24 m-24">
+     <div className="bg-secundary-900 p-20 lg:m-24">
        <section className="relative flex flex-col items-center justify-center bg-secundary-900">
-         <span className="text-5xl md:text-6xl lg:text-7xl font-black text-secundary-500">Contact me!</span>
+         <span className="text-4xl md:text-6xl lg:text-7xl font-black text-secundary-500">Contact me!</span>
          <span className="absolute mt-10 text-2xl md:text-3xl lg:text-4xl font-bold text-center text-app-colortext">Contactame!</span>
        </section>
      </div>
 
-     <section className="flex justify-center sm:justify-end flex-wrap items-center  gap-6 m-6 mt-20 pt-20 text-white text-lg">
+     <section className="flex justify-center sm:justify-end flex-wrap items-center  gap-6 m-6 mt-20 sm:pt-20 text-white text-lg">
        <img className=" ml-8  w-5 sm:w-10" src={ws} alt="" />
        <span className='mr-8 sm:'>WhatsApp: +573215098953</span>
        <img className="w-5 sm:w-10" src={outlook} alt="" />

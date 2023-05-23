@@ -46,11 +46,13 @@ const Header = () => {
         <section className='hidden md:flex items-center md:flex-row md:items-center md:gap-8 rounded-full'>
           {HeaderData.social.map((item) => (
             <div className="bg-gradient-to-r from-primary-900 to-secundary-800 p-3 rounded-full" key={item.title}>
-              <img
-                className="w-6 h-6"
-                src={item.icon}
-                alt={item.title}
-              />
+              <a href={item.url} target="_blank" rel="n">
+                <img
+                 className="w-6 h-6"
+                 src={item.icon}
+                 alt={item.title}
+                />
+              </a>
             </div>
           ))}
         </section>
