@@ -5,9 +5,9 @@ export default {
     extend: {
 
       fontSize: {
-        '10xl': '12.9rem', // Personalizamos una nueva clase de tamaño de fuente '10xl'
-        '11xl': '13rem', // Personalizamos una nueva clase de tamaño de fuente '11xl'
-        // Agrega más tamaños de fuente personalizados según tus necesidades
+        '10xl': '12.9rem', 
+        '11xl': '13rem', 
+        '12xl': '20rem'
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
@@ -39,7 +39,7 @@ export default {
           600: '#515151',
           700: '#434343',
           800: '#383838',
-          900: '#030303',
+          900: '#010001',
         },
 
       },

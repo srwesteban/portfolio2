@@ -1,11 +1,41 @@
-import React from 'react';
 import { LayoutHeader } from './../components/Layout';
 import { HeaderData } from '../data/data.js';
+import React, { useEffect } from 'react';
+
+
+
 
 
 const Header = () => {
+
+  const scrollToSkills = () => {
+    const skillsSection = document.getElementById('skills');
+    skillsSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById('projects');
+    projectsSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  useEffect(() => {
+    function goToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    const btnGoToTop = document.getElementById('btnGoToTop');
+    if (btnGoToTop) {
+      btnGoToTop.addEventListener('click', goToTop);
+    }
+    return () => {
+      if (btnGoToTop) {
+        btnGoToTop.removeEventListener('click', goToTop);
+      }
+    };
+  }, []);
+
   return (
-    <header className='fixed p-10 w-screen bg-secundary-900 font-poppins'>
+    <header className='fixed p-10 w-screen bg-secundary-900 font-poppins z-50'>
       <LayoutHeader>
         <section className='flex items-center gap-7 rounded-full'>
           {HeaderData.social.map((item) => (
@@ -21,11 +51,10 @@ const Header = () => {
         </section>
         <nav className='text-xl font-medium'>
           <ul className='flex items-center gap-x-8 text-white'>
-            {HeaderData.nav.map((item) => (
-              <li>{item.title}</li>
-            ))}
-            <button className='px-5 py-[10px] mr-20 text-app-colortext bg-transparent border-2 rounded-[5px] border-primary-400 '>Contacto</button>
-
+          <button id='btnGoToTop' className='text-white'> inicio</button>
+          <button onClick={scrollToSkills} className='text-white'> Habilidades</button>
+          <button onClick={scrollToProjects} className='text-white'> Proyectos</button>
+          <button className='px-5 py-[10px] mr-20 text-app-colortext bg-transparent border-2 rounded-[5px] border-primary-400 '>Contacto</button>
           </ul>
         </nav>
       </LayoutHeader>

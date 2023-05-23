@@ -4,6 +4,16 @@ import github from './../assets/images/github.svg';
 import instagram from './../assets/images/instagram.svg';
 import gitlab from './../assets/images/gitlabd.svg'
 import cv from './../assets/images/cv.png'
+import csharp from './../assets/images/csharp.svg'
+import js from './../assets/images/js.png'
+import html from './../assets/images/html.svg'
+import css from './../assets/images/css.svg'
+import tw from './../assets/images/tw.svg'
+import angular from './../assets/images/angular.svg'
+import react from './../assets/images/react.svg'
+import java from './../assets/images/java.svg'
+import python from './../assets/images/python.svg'
+import vite from './../assets/images/vitejs.svg'
 
 export const HeaderData = {
   logo: {
@@ -64,22 +74,48 @@ export const HeroData = {
 };
 
 export const SkillsData = {
-  header: {
-    title: 'Skills',
-    subTitle:
-      'Habilidades.',
-  },
-  items: [
+ 
+  images: [
     {
-      iconCsharp: './../assets/images/C#.jpg',
-      title: 'C#',
-      orientation: '',
+      title: 'js',
+      icon: js,
     },
     {
-      icon: '',
-      title: '',
-      subTitle: '',
-      orientation: '',
+      title: 'html',
+      icon: html,
     },
+    {
+      title: 'css',
+      icon: css,
+    },
+    {
+      title: 'tw',
+      icon: tw,
+    },
+    {
+      title: 'angular',
+      icon: angular,
+    },
+    {
+      title: 'react',
+      icon: react,
+    },
+    {
+      title: 'java',
+      icon: java,
+    },
+    {
+      title: 'c#',
+      icon: csharp,
+    },
+    {
+      title: 'python',
+      icon: python,
+    },
+    {
+      title: 'vite',
+      icon: vite,
+    },
+    
   ],
 };

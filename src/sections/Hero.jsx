@@ -7,7 +7,7 @@ import { HeroData } from '../data/data.js';
 
 const Hero = () => {
   return (
-    <section className='py-[200px] pb-[200px] font-poppins bg-black'>
+    <section className='pt-[200px] pb-[100px] font-poppins bg-secundary-900'>
       <LayoutHero>
         <section className='flex justify-between items-start pl-8 py-6'>
           <aside>

@@ -1,15 +1,15 @@
 import React from 'react';
 import { SkillsData } from '../data/data';
 
-function Skills() {
+function Projects() {
 
   return (
-    <div className="w-full bg-secundary-900 h-[800px] pt-[100px]" id='skills'>
+    <div className="w-full bg-secundary-900 h-[800px] pt-[100px]" id='projects'>
 
       <div className="flex relative items-center justify-center bg-secundary-900 text-3xl font-bold text-center p-28 ">
-          <span className="absolute-cover text-11xl font-black text-white">Skills</span>
-          <span className="absolute text-11xl font-black">Skills</span>
-          <span className="absolute py-20 mt-20 text-4xl font-bold text-center text-app-colortext">Habilidades</span>
+          <span className="absolute-cover text-11xl font-black text-white">Projects</span>
+          <span className="absolute text-11xl font-black">Projects</span>
+          <span className="absolute py-20 mt-20 text-4xl font-bold text-center text-app-colortext">Proyectos</span>
       </div>
 
       <div className="container mx-auto ">
@@ -30,5 +30,5 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Projects;
 

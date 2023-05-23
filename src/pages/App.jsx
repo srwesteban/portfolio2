@@ -3,7 +3,7 @@ import Header from '../sections/Header';
 import Hero from '../sections/Hero';
 import Footer from '../sections/Footer';
 import Skills from '../sections/Skills';
-import Proyectos from '../sections/Proyectos';
+import Projects from '../sections/Projects'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Skills/>
-      <Proyectos/>
+      <Projects/>
       <Footer/>
     </>
   );

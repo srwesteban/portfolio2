@@ -21,6 +21,7 @@ export const Layout = ({ children }) => {
   return <main className='mx-auto max-w-[990px]'>{children}</main>;
 };
 
-export const LayoutTitles = ({ children }) => {
-  return <main className='mx-auto max-h-[100px]'>{children}</main>;
+export const LayoutFooter = ({ children }) => {
+  return <main className='mx-auto '>{children}</main>;
 };
+
