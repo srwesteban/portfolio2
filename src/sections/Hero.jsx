@@ -27,12 +27,13 @@ const Hero = () => {
               <p className='text-secundary-300 font-roboto font-extrabold text-2xl'>________</p>
               <p className='text-secundary-300 py-4 pb-8 text-xl text-justify'>{HeroData.descripcion}</p>
 
-              <button className='flex items-center px-5 py-[10px] text-black bg-primary-500 rounded-[6px] font-extrabold'>
-
-                <img className='m-2' src={HeroData.iconcv} alt="cv" />
+              <a href="https://drive.google.com/file/d/1MXh4UMXVo_0GVqT3QL9DYCw8HW2OApAo/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <button className='flex items-center px-5 py-[10px] text-black bg-primary-500 rounded-[6px] font-extrabold'>
+                  <img className='m-2' src={HeroData.iconcv} alt="cv" />
                   {HeroData.btnTextDownloadCv}
+                </button>
+              </a>
 
-              </button>
 
             </section>
 
