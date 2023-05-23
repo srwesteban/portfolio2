@@ -19,12 +19,12 @@ const Header = () => {
           </div>
           ))}
         </section>
-        <nav>
-          <ul className='flex items-center gap-x-8 text-white font-semibold'>
+        <nav className='text-xl font-medium'>
+          <ul className='flex items-center gap-x-8 text-white'>
             {HeaderData.nav.map((item) => (
               <li>{item.title}</li>
             ))}
-            <button className='px-5 py-[10px] mr-20 pr-10 text-app-colortext bg-yellow-500 rounded-[32px]'>Contacto</button>
+            <button className='px-5 py-[10px] mr-20 text-app-colortext bg-transparent border-2 rounded-[5px] border-primary-400 '>Contacto</button>
 
           </ul>
         </nav>

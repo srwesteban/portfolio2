@@ -2,6 +2,7 @@ import logo from './../assets/images/logo.svg';
 import twitter from './../assets/images/twitter.svg';
 import github from './../assets/images/github.svg';
 import instagram from './../assets/images/instagram.svg';
+import gitlab from './../assets/images/gitlabd.svg'
 import cv from './../assets/images/cv.png'
 
 export const HeaderData = {
@@ -44,7 +45,7 @@ export const HeaderData = {
     {
       title: 'Instagram',
       link: 'instagram.html',
-      icon: instagram,
+      icon: gitlab,
     },
 
   ],
@@ -62,17 +63,16 @@ export const HeroData = {
   btnTextContact: 'Contactarnos',
 };
 
-export const ServiceData = {
+export const SkillsData = {
   header: {
-    title: 'Tecnologias',
+    title: 'Skills',
     subTitle:
-      'Cada uno de nuestros servicios tiene como foco principal las necesidades de nuestros usuarios.',
+      'Habilidades.',
   },
   items: [
     {
-      icon: '',
-      title: '',
-      subTitle: '',
+      iconCsharp: './../assets/images/C#.jpg',
+      title: 'C#',
       orientation: '',
     },
     {

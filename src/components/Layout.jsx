@@ -3,7 +3,7 @@ import React from 'react';
 
 export const LayoutHeader = ({ children }) => {
   return (
-    <div className='flex justify-between items-center mx-auto max-w-[1400px] font-poppins xl:px-0'>
+    <div className='flex justify-between items-center mx-auto max-w-[1350px] font-poppins xl:px-0'>
       {children}
     </div>
   );
