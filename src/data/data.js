@@ -2,6 +2,7 @@ import logo from './../assets/images/logo.svg';
 import twitter from './../assets/images/twitter.svg';
 import github from './../assets/images/github.svg';
 import instagram from './../assets/images/instagram.svg';
+import cv from './../assets/images/cv.png'
 
 export const HeaderData = {
   logo: {
@@ -50,10 +51,12 @@ export const HeaderData = {
 };
 
 export const HeroData = {
+
+  iconcv: cv,
   title: 'Hola!',
   subTitle:
-    'Soy William Esteban',  
-  masTexto:'{Full Stack Developer}', 
+    'Soy ',  
+  masTexto:'Full Stack Developer', 
   descripcion:'Enim pariatur dolore velit in mollit quis ullamco. Veniam do labore ea dolor id duis sunt et ex commodo nostrud ullamco pariatur laboris. Nisi ad ex excepteur sint aute cillum. Deserunt proident sint eiusmod commodo pariatur Lorem incididunt sint pariatur enim. Mollit eu voluptate officia excepteur laboris ea veniam.', 
   btnTextDownloadCv: 'Descargar CV',
   btnTextContact: 'Contactarnos',

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Tecnologias() {
+function Languages() {
   const images = [
     'https://thumbs.dreamstime.com/b/logotipo-de-java-118452997.jpg',
     'https://res.cloudinary.com/practicaldev/image/fetch/s--ktYESCeQ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dxy1c2bvl6odeo52dodk.jpg',
@@ -10,12 +10,17 @@ function Tecnologias() {
     'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png',
     'https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png',
     'https://vitejs.dev/logo-with-shadow.png',
-    // Agrega más URLs de imágenes según tus necesidades
+    
   ];
 
   return (
-    <div className="w-full bg-black">
-      <h1 className="text-3xl font-bold text-center mb-4 text-app-colortext p-10">Tecnologias</h1>
+    <div className="w-full bg-secundary-900">
+
+      <div className="flex flex-col items-center justify-center bg-black text-3xl font-bold text-center p-20 ">
+          <span className="absolute text-11xl font-black text-white">Tecnologias</span>
+          <span className="absolute text-11xl font-black">Tecnologias</span>
+          <h1 className="absolute py-20 mt-20 text-3xl font-bold text-center text-app-colortext">Tecnologias</h1>
+      </div>
       <div className="container mx-auto">
       <div className="grid grid-cols-4 rounded-full">
         {images.map((image, index) => (
@@ -24,18 +29,17 @@ function Tecnologias() {
             key={index}
             src={image}
             alt={`Imagen ${index}`}
-            className="w-32 h-32 object-cover rounded-full border-yellow-500 border-2 my-10"
+            className="w-40 h-54 rounded-full border-yellow-500 border-2 my-10"
           />
           </div>
         ))}
       </div>
     </div>
-
     </div>
 
     
   );
 }
 
-export default Tecnologias;
+export default Languages;
 

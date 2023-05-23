@@ -3,60 +3,45 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+
+      fontSize: {
+        '10xl': '12.9rem', // Personalizamos una nueva clase de tamaño de fuente '10xl'
+        '11xl': '13rem', // Personalizamos una nueva clase de tamaño de fuente '11xl'
+        // Agrega más tamaños de fuente personalizados según tus necesidades
+      },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
         'app-colortext': '#FCE713',
-        'app-white': '#F1F1F8',
-        'app-primary': {
-          50: '#f4f5fe',
-          100: '#eaebfd',
-          200: '#d9dcfb',
-          300: '#babdf8',
-          400: '#9394f2',
-          500: '#6d67eb',
-          600: '#5747e0',
-          700: '#4935cc',
-          800: '#3c2cab',
-          900: '#352792',
+        'app-white': '#F7F7F7',
+        'primary': {
+          50: '#FEFEE8',
+          100: '#FEFFC2',
+          200: '#FFFE89',
+          300: '#FFF645',
+          400: '#FCE713',
+          500: '#FCE713',
+          600: '#CCA102',
+          700: '#A27306',
+          800: '#865A0D',
+          900: '#724A11',
         },
-        'app-accent': {
-          50: '#ebffff',
-          100: '#cefeff',
-          200: '#a2fbff',
-          300: '#63f5fd',
-          400: '#1ce5f4',
-          500: '#00c9db',
-          600: '#039fb7',
-          700: '#0a7f94',
-          800: '#126578',
-          900: '#145465',
+      
+        'secundary': {
+          50: '#F7F7F7',
+          100: '#E3E3E3',
+          200: '#C8C8C8',
+          300: '#A4A4A4',
+          400: '#818181',
+          500: '#666666',
+          600: '#515151',
+          700: '#434343',
+          800: '#383838',
+          900: '#030303',
         },
-        'app-black': {
-          50: '#f6f6f9',
-          100: '#edecf2',
-          200: '#d7d5e2',
-          300: '#b3b0c9',
-          400: '#8a85ab',
-          500: '#6a6592',
-          600: '#575178',
-          700: '#474262',
-          800: '#3d3953',
-          900: '#2f2c3d',
-        },
-        'app-gray': {
-          50: '#F9FAFB',
-          100: '#F3F4F6',
-          200: '#E5E7EB',
-          300: '#D1D5DB',
-          400: '#9CA3AF',
-          500: '#6B7280',
-          600: '#4B5563',
-          700: '#374151',
-          800: '#1F2937',
-          900: '#111827',
-        },
+
       },
     },
   },
