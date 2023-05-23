@@ -22,6 +22,6 @@ export const Layout = ({ children }) => {
 };
 
 export const LayoutFooter = ({ children }) => {
-  return <main className='mx-auto '>{children}</main>;
+  return <main className='mx-auto'>{children}</main>;
 };
 

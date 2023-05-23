@@ -18,6 +18,12 @@ const Header = () => {
     projectsSection.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToFooter = () => {
+    const footerSection = document.getElementById('footer');
+    footerSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
+
   useEffect(() => {
     function goToTop() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -54,7 +60,7 @@ const Header = () => {
           <button id='btnGoToTop' className='text-white'> inicio</button>
           <button onClick={scrollToSkills} className='text-white'> Habilidades</button>
           <button onClick={scrollToProjects} className='text-white'> Proyectos</button>
-          <button className='px-5 py-[10px] mr-20 text-app-colortext bg-transparent border-2 rounded-[5px] border-primary-400 '>Contacto</button>
+          <button onClick={scrollToFooter} className='px-5 py-[10px] mr-20 text-app-colortext bg-transparent border-2 rounded-[5px] border-primary-400 '>Contacto</button>
           </ul>
         </nav>
       </LayoutHeader>

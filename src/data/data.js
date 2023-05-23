@@ -15,6 +15,7 @@ import java from './../assets/images/java.svg'
 import python from './../assets/images/python.svg'
 import vite from './../assets/images/vitejs.svg'
 
+
 export const HeaderData = {
   logo: {
     title: 'UCC',
@@ -116,6 +117,14 @@ export const SkillsData = {
       title: 'vite',
       icon: vite,
     },
+
+    
     
   ],
+
+  
+
+ 
+ 
 };
+
