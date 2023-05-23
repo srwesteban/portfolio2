@@ -9,8 +9,8 @@ const Hero = () => {
   return (
     <section className='pt-[200px] pb-[100px] font-poppins bg-secundary-900'>
       <LayoutHero>
-        <section className='flex justify-between items-start pl-8 py-6'>
-          <aside>
+        <section className='flex flex-col items-center lg:flex-row lg:justify-between lg:items-end'>
+          <aside className='text-center lg:text-left'>
             <section className='w-[740px] mx-15 p-8'>
               <p className='font-extrabold text-4xl text-app-white'>
                 {HeroData.title}
