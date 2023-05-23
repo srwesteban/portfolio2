@@ -69,7 +69,7 @@ export const HeroData = {
   subTitle:
     'Soy ',  
   ocupation:'Full Stack Developer', 
-  description:'Enim pariatur dolore velit in mollit quis ullamco. Veniam do labore ea dolor id duis sunt et ex commodo nostrud ullamco pariatur laboris. Nisi ad ex excepteur sint aute cillum. Deserunt proident sint eiusmod commodo pariatur Lorem incididunt sint pariatur enim. Mollit eu voluptate officia excepteur laboris ea veniam.', 
+  description:'Un apasionado estudiante de ingeniería de software con una fuerte habilidad para programar. Disfruto tanto del desarrollo frontend como del backend, y encuentro emoción en la creación de soluciones completas y funcionales.', 
   btnTextDownloadCv: 'Descargar CV',
   btnTextContact: 'Contactarnos',
 };
