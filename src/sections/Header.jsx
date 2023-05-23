@@ -43,9 +43,8 @@ const Header = () => {
   return (
     <header className='fixed p-10 w-screen bg-secundary-900 font-poppins z-50'>
       <LayoutHeader>
-        <section className='flex items-center gap-8 rounded-full'>
+        <section className='hidden md:flex items-center md:flex-row md:items-center md:gap-8 rounded-full'>
           {HeaderData.social.map((item) => (
-
             <div className="bg-gradient-to-r from-primary-900 to-secundary-800 p-3 rounded-full" key={item.title}>
               <img
              className="w-6 h-6"
@@ -55,14 +54,15 @@ const Header = () => {
           </div>
           ))}
         </section>
-        <nav className='text-xl font-medium'>
-          <ul className='flex items-center gap-x-10 text-white'>
-          <button id='btnGoToTop' className='text-white'> inicio</button>
-          <button onClick={scrollToSkills} className='text-white'> Habilidades</button>
-          <button onClick={scrollToProjects} className='text-white'> Proyectos</button>
-          <button onClick={scrollToFooter} className='p-[14px] mr-8 text-app-colortext bg-transparent border-2 rounded-[5px] border-primary-400 '>Contacto</button>
+        <nav className='text-sm md:text-md lg:text-xl font-medium'>
+          <ul className='flex items-center gap-x-6 md:gap-x-10 text-white'>
+            <button id='btnGoToTop' className='text-white'>Inicio</button>
+            <button onClick={scrollToSkills} className='text-white'>Habilidades</button>
+            <button onClick={scrollToProjects} className='text-white'>Proyectos</button>
+            <button onClick={scrollToFooter} className='px-4 py-2 mr-4 text-app-colortext bg-transparent border-2 rounded-[5px] border-primary-400'>Contacto</button>
           </ul>
         </nav>
+
       </LayoutHeader>
     </header>
   );

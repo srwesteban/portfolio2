@@ -25,22 +25,19 @@ export const HeaderData = {
   nav: [
     {
       title: 'Inicio',
-      link: 'index.html',
     },
     {
       title: 'Habilidades',
-      link: 'experiencia.html',
     },
     {
       title: 'Proyectos',
-      link: 'proyectos.html',
     },
 
   ],
   social: [
     {
       title: 'Twitter',
-      link: 'twitter.html',
+      link: 'www.twitter.com',
       icon: twitter,
     },
     {

@@ -41,7 +41,7 @@ const Hero = () => {
           <img
             src={me}
             alt='yo'
-            className='mx auto w-[500px] md:w-[640px] shadow-2xl order-first lg:order-last'
+            className='w-[400px] sm:w-[300px] md:w-[500px] lg:w-[640px] shadow-2xl order-first lg:order-last pl-10'
           />
 
         </section>
