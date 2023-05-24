@@ -1,5 +1,4 @@
-import ws from './../assets/images/whatsapp.svg'
-import outlook from './../assets/images/outlook.svg'
+import { FooterData } from '../data/data';
 
 
 const Footer = () => {
@@ -16,13 +15,13 @@ const Footer = () => {
      </div>
 
      <section className="flex justify-center sm:justify-end flex-wrap items-center  gap-6 m-6 mt-20 sm:pt-20 text-white text-lg">
-       <img className=" ml-2  w-4 sm:w-10" src={ws} alt="" />
-       <span className='mr-9 text-md sm:'>WhatsApp: +573215098953</span>
+       <img className=" ml-2  w-4 sm:w-10" src={FooterData.iconw} alt="" />
+       <span className='mr-9 text-md sm:'>{FooterData.whatsapp}</span>
        <br />
-       <img className="w-4 text-md sm:w-10" src={outlook} alt="" />
-       <span>Email: <a href="mailto:sr.w@hotmail.com">sr.w@hotmail.com</a></span>
+       <img className="w-4 text-md sm:w-10" src={FooterData.iconout} alt="" />
+       <span>Email: <a href="mailto:sr.w@hotmail.com">{FooterData.email}</a></span>
        <span className="text-center ml-0 sm:ml-10 ">
-         © William David Esteban Mora - 2023 Todos los derechos reservados
+         {FooterData.copyright}
        </span>
      </section>
     </div>

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Layout, LayoutHero } from '../components/Layout';
-import me from '../assets/images/yo.png';
+import { LayoutHero } from '../components/Layout';
 import { HeroData } from '../data/data.js';
 
 
@@ -44,7 +43,7 @@ const Hero = () => {
           </aside>
 
           <img
-            src={me}
+            src={HeroData.me}
             alt='yo'
             className='w-[300px] sm:w-[400px] md:w-[500px] lg:w-[640px] shadow-2xl order-first lg:order-last pl-10'
           />

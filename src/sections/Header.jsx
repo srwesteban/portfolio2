@@ -2,10 +2,6 @@ import { LayoutHeader } from './../components/Layout';
 import { HeaderData } from '../data/data.js';
 import React, { useEffect } from 'react';
 
-
-
-
-
 const Header = () => {
 
   const scrollToSkills = () => {

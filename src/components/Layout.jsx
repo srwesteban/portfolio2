@@ -11,7 +11,7 @@ export const LayoutHeader = ({ children }) => {
 
 
 export const LayoutHero = ({ children }) => {
-  return <main className='mx-auto my-5'>{children}</main>;
+  return <main className='mx-auto my-5 max-w-[1350px]'>{children}</main>;
 };
 
 export const LayoutTecnologies = ({ children }) => {

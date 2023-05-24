@@ -17,6 +17,12 @@ import vite from './../assets/images/vitejs.svg'
 import figma from './../assets/images/clon.png'
 import vw from './../assets/images/vw.png'
 import gato from './../assets/images/gato.png'
+import ws from './../assets/images/whatsapp.svg'
+import outlook from './../assets/images/outlook.svg'
+import me from './../assets/images/yo.png';
+
+
+
 
 
 export const HeaderData = {
@@ -64,6 +70,7 @@ export const HeaderData = {
 
 export const HeroData = {
 
+  me: me,
   iconcv: cv,
   title: 'Hola!',
   subTitle:
@@ -136,4 +143,13 @@ export const ProjectsData = {
     },
   
   ],
+};
+
+export const FooterData = {
+
+  whatsapp: 'WhatsApp: +573215098953',
+  iconw: ws,
+  iconout: outlook,
+  email: 'sr.w@hotmail.com!',
+  copyright: '© William David Esteban Mora - 2023 Todos los derechos reservados'
 };
