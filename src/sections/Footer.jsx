@@ -16,8 +16,8 @@ const Footer = () => {
      </div>
 
      <section className="flex justify-center sm:justify-end flex-wrap items-center  gap-6 m-6 mt-20 sm:pt-20 text-white text-lg">
-       <img className=" ml-8  w-5 sm:w-10" src={ws} alt="" />
-       <span className='mr-8 text-md sm:'>WhatsApp: +573215098953</span>
+       <img className=" ml-7  w-5 sm:w-10" src={ws} alt="" />
+       <span className='mr-9 text-md sm:'>WhatsApp: +573215098953</span>
        <img className="w-5 text-md sm:w-10" src={outlook} alt="" />
        <span>Email: <a href="mailto:sr.w@hotmail.com">sr.w@hotmail.com</a></span>
        <span className="text-center ml-0 sm:ml-10 ">
