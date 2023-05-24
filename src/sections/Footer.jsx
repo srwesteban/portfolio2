@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="flex flex-col items-center justify-center bg-secundary-900" id="footer">
      <div className="bg-secundary-900 p-20 lg:m-24">
        <section className="relative flex flex-col items-center justify-center bg-secundary-900">
-         <span className="text-4xl md:text-6xl lg:text-7xl font-black text-secundary-500">Contact me!</span>
+         <span className="text-3xl md:text-6xl lg:text-7xl font-black text-secundary-500">Contact me!</span>
          <span className="absolute mt-10 text-2xl md:text-3xl lg:text-4xl font-bold text-center text-app-colortext">Contactame!</span>
        </section>
      </div>
