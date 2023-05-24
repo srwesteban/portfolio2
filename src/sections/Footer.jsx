@@ -14,7 +14,7 @@ const Footer = () => {
        </section>
      </div>
 
-     <section className="flex justify-center sm:justify-end flex-wrap items-center  gap-6 m-6 mt-20 sm:pt-20 text-white text-lg">
+     <section className="flex justify-center flex-wrap items-center  gap-6 m-6 mt-20 sm:pt-20 text-white text-lg">
        <img className=" ml-2  w-4 sm:w-10" src={FooterData.iconw} alt="" />
        <span className='mr-9 text-md sm:'>{FooterData.whatsapp}</span>
        <br />

@@ -82,6 +82,9 @@ export const HeroData = {
 };
 
 export const SkillsData = {
+
+  title: "Skills",
+  titulo: "Habilidades",
  
   images: [
     {
@@ -127,6 +130,9 @@ export const SkillsData = {
   ],
 };
 export const ProjectsData = {
+
+  title: "My projects",
+  titulo: 'Mis proyectos',
  
   images: [
     {
