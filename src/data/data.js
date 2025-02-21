@@ -145,7 +145,7 @@ export const ProjectsData = {
     },
     {
       url: 'https://proyecto-concesionario.vercel.app/',
-      icon: vw,
+      icon: cr,
     },
   
   ],
