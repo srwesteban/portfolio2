@@ -144,7 +144,7 @@ export const ProjectsData = {
       icon: gato,
     },
     {
-      url: 'https://menu-react-vergaja.vercel.app/',
+      url: 'https://proyecto-concesionario.vercel.app/',
       icon: vw,
     },
   
