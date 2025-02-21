@@ -76,8 +76,7 @@ export const HeroData = {
   subTitle:
     'Soy ',  
   ocupation:'Software Developer', 
-  description:'Un apasionado estudiante de ingeniería de software con una fuerte habilidad para programar. Disfruto tanto del desarrollo frontend como del backend, y encuentro emoción en la creación de soluciones completas y funcionales.', 
-  btnTextDownloadCv: 'Descargar CV',
+  description: "Ingeniero de software apasionado con una sólida habilidad para programar. Disfruto tanto del desarrollo frontend como del backend y me motiva crear soluciones completas y funcionales."  btnTextDownloadCv: 'Descargar CV',
   btnTextContact: 'Contactarnos',
 };
 
