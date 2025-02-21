@@ -20,7 +20,7 @@ import gato from './../assets/images/gato.png'
 import ws from './../assets/images/whatsapp.svg'
 import outlook from './../assets/images/outlook.svg'
 import me from './../assets/images/yo.png';
-import logo from './../assets/images/cr.png';
+import cr from './../assets/images/cr.png';
 
 
 
