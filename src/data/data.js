@@ -20,7 +20,6 @@ import gato from './../assets/images/gato.png'
 import ws from './../assets/images/whatsapp.svg'
 import outlook from './../assets/images/outlook.svg'
 import me from './../assets/images/yo.png';
-import cr from './../assets/images/cr.png';
 
 
 
@@ -146,7 +145,7 @@ export const ProjectsData = {
     },
     {
       url: 'https://proyecto-concesionario.vercel.app/',
-      icon: cr,
+      icon: figma,
     },
   
   ],
